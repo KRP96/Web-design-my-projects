@@ -1,0 +1,11 @@
+@mixin border($color, $radius) {
+    border-radius: $radius;
+    border-color: $color;
+    border-style: solid;
+    
+}
+
+@mixin width {
+    width: max-content;
+    height: fit-content;
+}

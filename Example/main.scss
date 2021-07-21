@@ -1,0 +1,81 @@
+$main-color: rgb(207, 157, 157);
+$second-color: rgb(233, 7, 7);
+$main-color2: bisque;
+$second-color2: chocolate;
+$main-color3: darksalmon;
+$second-color3: darkred;
+$font-color: black;
+$background-color: white;
+$background-color-2: rgb(172, 172, 172);
+
+@import './second-main.scss';
+
+.header-main {
+    background-color: $main-color;
+    color: $second-color;
+    @include width();
+    @include border(black, 20px);
+    
+}
+
+.header-main:hover {
+    background-color: $second-color;
+    color: $main-color;
+    @include border($main-color, 20px);
+    @include width();
+    
+}
+
+.header-second{
+    background-color: $main-color2;
+    color: $second-color2;  
+    @include width(); 
+    @include border(black, 15px);
+    border-style: none;
+    font-family: Helvetica, sans-serif;
+}
+
+.header-second:hover{
+    background-color: $second-color2;
+    color: $main-color2; 
+    @include border($main-color2, 15px);  
+    @include width();
+    border-style: none;
+    font-family: Helvetica, sans-serif;
+}
+
+
+.header-third{
+    background-color: $main-color3;
+    color:$second-color3;
+    @include width();
+    @include border(black, 10px);
+    border-style: dotted;
+}
+
+.header-third:hover{
+    background-color: $second-color3;
+    color:$main-color3;
+    @include border($main-color3, 10px);
+    @include width();
+}
+
+.paragraph-1{
+    background-color: $main-color2;
+    color: $font-color;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.paragraph-1:hover {
+    background-color: $background-color-2;
+    color: $font-color;
+}
+
+.paragraph-2:hover {
+    background-color: $font-color;
+    color: $background-color-2;
+}
+
+

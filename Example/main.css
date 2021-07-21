@@ -1,0 +1,107 @@
+.header-main {
+  background-color: #cf9d9d;
+  color: #e90707;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 20px;
+  border-color: black;
+  border-style: solid;
+}
+
+.header-main:hover {
+  background-color: #e90707;
+  color: #cf9d9d;
+  border-radius: 20px;
+  border-color: #cf9d9d;
+  border-style: solid;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.header-second {
+  background-color: bisque;
+  color: chocolate;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  border-color: black;
+  border-style: solid;
+  border-style: none;
+  font-family: Helvetica, sans-serif;
+}
+
+.header-second:hover {
+  background-color: chocolate;
+  color: bisque;
+  border-radius: 15px;
+  border-color: bisque;
+  border-style: solid;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-style: none;
+  font-family: Helvetica, sans-serif;
+}
+
+.header-third {
+  background-color: darksalmon;
+  color: darkred;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-style: dotted;
+}
+
+.header-third:hover {
+  background-color: darkred;
+  color: darksalmon;
+  border-radius: 10px;
+  border-color: darksalmon;
+  border-style: solid;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.paragraph-1 {
+  background-color: bisque;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.paragraph-1:hover {
+  background-color: #acacac;
+  color: black;
+}
+
+.paragraph-2:hover {
+  background-color: black;
+  color: #acacac;
+}
+/*# sourceMappingURL=main.css.map */
